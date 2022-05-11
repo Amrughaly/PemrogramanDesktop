@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="284.0" prefWidth="430.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="kuiskeyboard.FXMLDocumentController">
+    <children>
+        <Button fx:id="bt_simpan" layoutX="173.0" layoutY="236.0" onAction="#handleButtonAction" text="Simpan" />
+        <Label fx:id="date" layoutX="46.0" layoutY="64.0" minHeight="16" minWidth="69" text="Tanggal Pembelian" />
+      <Label fx:id="warna" layoutX="46.0" layoutY="196.0" minHeight="16" minWidth="69" text="Warna" />
+      <Label fx:id="jenis" layoutX="46.0" layoutY="160.0" minHeight="16" minWidth="69" text="Jenis" />
+      <Label fx:id="harga" layoutX="46.0" layoutY="130.0" minHeight="16" minWidth="69" text="Harga" />
+      <Label fx:id="merek" layoutX="46.0" layoutY="99.0" minHeight="16" minWidth="69" text="Merek" />
+      <Label fx:id="judul" layoutX="128.0" layoutY="14.0" minHeight="16" minWidth="69" text="Keyboard Store">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font></Label>
+      <TextField fx:id="tf_merek" layoutX="214.0" layoutY="95.0" />
+      <DatePicker fx:id="dp_tanggal" layoutX="213.0" layoutY="57.0" prefHeight="30.0" prefWidth="145.0" />
+      <TextField fx:id="tf_harga" layoutX="213.0" layoutY="126.0" />
+      <TextField fx:id="tf_warna" layoutX="214.0" layoutY="192.0" />
+      <ComboBox fx:id="cb_jenis" layoutX="213.0" layoutY="160.0" prefHeight="26.0" prefWidth="164.0" />
+    </children>
+</AnchorPane>
